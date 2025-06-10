@@ -70,10 +70,10 @@ Welcome to the Hono-based authentication server built using **Node.js**, **JWT**
 ---
 
 ### ➤ Users (Protected)
-> Requires query param `?name=raj`
+> Requires query param `?name=User_name`
 
 - `GET /users` — Get user data
-- `GET /users/:id?name=raj` — Get user details by ID
+- `GET /users/:id?name=user_name` — Get user details by ID
 
 ---
 
