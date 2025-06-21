@@ -37,7 +37,7 @@ app.use('/users/*', async (c, next) => {
 })
 
 app.get("/users", (c) => {
-	return c.json(data);
+	return c.json(data);           
 })
 
 
