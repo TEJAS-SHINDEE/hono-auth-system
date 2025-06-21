@@ -7,7 +7,7 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv'
 import { auth } from 'hono/utils/basic-auth';
 
-dotenv.config();
+dotenv.config();          
 
 const app = new Hono()
 app.use("*", prettyJSON());
