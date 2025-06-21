@@ -5,7 +5,7 @@ import { serveStatic } from '@hono/node-server/serve-static';
 // import { sendMail } from '../services/mail.js';             
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv'
-import { auth } from 'hono/utils/basic-auth';
+import { auth } from 'hono/utils/basic-auth';                
 
 dotenv.config();          
 
