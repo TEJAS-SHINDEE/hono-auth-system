@@ -11,7 +11,7 @@ dotenv.config();
                     
 const app = new Hono()              
 app.use("*", prettyJSON());
-// app.use("./static/*", serveStatic({root:'./'}));
+// app.use("./static/*", serveStatic({root:'./'}));            
 
 const payload = { name : "tony" , age : "27"};
 const secretKey = process.env.SECRET_KEY;                 
