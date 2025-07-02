@@ -8,7 +8,7 @@ import dotenv from 'dotenv'
 import { auth } from 'hono/utils/basic-auth';                
 
 dotenv.config();          
-         
+                    
 const app = new Hono()              
 app.use("*", prettyJSON());
 // app.use("./static/*", serveStatic({root:'./'}));
